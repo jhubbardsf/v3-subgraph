@@ -8,6 +8,9 @@ Pending Changes at same URL
 
 ### Rift Local Devnet Deployment
 
+Go to [jhubbardsf/graph-node](https://github.com/jhubbardsf/graph-node) and
+follow the instructions to run a local graph-node for Rift. Then follow these instructions to deploy the subgraph to the local node.
+
 1. `yarn install`
 2. `npm i -g @graphprotocol/graph-cli # Or use your preferred package manager`
 3. `graph codegen --output-dir src/types/`
